@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-CRUDApplication<crud-app-starter>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "io.zipcoder.crudapp.CRUDApplication",
+            "projectName": "crud-app-starter",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

@@ -1,12 +1,12 @@
-package io.zipcoder.crudapp;
+package io.zipcoder.crudapp.Service;
 
 import java.util.List;
-import java.util.Optional;
-
-import javax.websocket.server.ServerEndpoint;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import io.zipcoder.crudapp.Entity.Person;
+import io.zipcoder.crudapp.Repository.PersonRepository;
 
 @Service
 public class PersonService {
@@ -29,4 +29,4 @@ public class PersonService {
     public void delete(int id) {
         personRepository.delete(id);
     }
-}   
+}
